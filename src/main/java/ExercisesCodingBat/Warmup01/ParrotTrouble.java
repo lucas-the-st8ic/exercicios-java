@@ -27,10 +27,13 @@ Temos um papagaio que fala alto. O parâmetro "hora" é a hora atual,
 estiver falando e a hora for antes das 7 ou depois das 20.
 Retorne verdadeiro se estivermos em apuros.
 
-parrotTrouble(true, 6) → true
-parrotTrouble(true, 7) → false
-parrotTrouble(false, 6) → false
-
+CodingBat Solution:
+        public boolean parrotTrouble(boolean talking, int hour) {
+          return (talking && (hour < 7 || hour > 20));
+          // Need extra parenthesis around the || clause
+          // since && binds more tightly than ||
+          // && is like arithmetic *, || is like arithmetic +
+        }
 */
 
 void main(String[] args) {
