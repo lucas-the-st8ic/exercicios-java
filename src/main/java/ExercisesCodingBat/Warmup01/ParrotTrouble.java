@@ -34,5 +34,5 @@ parrotTrouble(false, 6) → false
 */
 
 void main(String[] args) {
-    parrotTrouble(true, 21);
+    parrotTrouble(false, 20);
 }
