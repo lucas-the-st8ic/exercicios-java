@@ -13,6 +13,16 @@ retorne verdadeiro se um for negativo e o outro for positivo.
 Exceto se o parâmetro "negativo" for verdadeiro,
 nesse caso, retorne verdadeiro somente se ambos forem negativos.
 
+CodingBat Solution:
+public boolean posNeg(int a, int b, boolean negative) {
+  if (negative) {
+    return (a < 0 && b < 0);
+  }
+  else {
+    return ((a < 0 && b > 0) || (a > 0 && b < 0));
+  }
+}
+
 */
 
 public boolean posNeg(int a, int b, boolean negative) {
@@ -28,7 +38,6 @@ public boolean posNeg(int a, int b, boolean negative) {
     return result;
 
 }
-
 
 
 void main(String[] args) {
