@@ -15,7 +15,7 @@ parrotTrouble(false, 6) → false
 public boolean parrotTrouble(boolean talking, int hour) {
     boolean trouble = false;
 
-    if (talking && ((hour < 7) || (hour > 20))) {
+    if (talking && (hour < 7 || hour > 20)) {
         trouble = true;
     }
     System.out.println(trouble);
@@ -34,5 +34,5 @@ parrotTrouble(false, 6) → false
 */
 
 void main(String[] args) {
-    parrotTrouble(false, 20);
+    parrotTrouble(true, 21);
 }
