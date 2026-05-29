@@ -22,21 +22,25 @@ public boolean posNeg(int a, int b, boolean negative) {
     return ((a < 0 && b > 0) || (a > 0 && b < 0));
   }
 }
-
+!!!ATENÇÃO!!!!!
+Mais Simples
+Verifica primeiro se o negativo é verdadeiro ou falso
+e só depois verifica se ambos são negativos SE NÃO
+verifica se um é positivo e o outro é negativo.
+            !!!!!!ATENÇÃO!!!!!
 */
 
 public boolean posNeg(int a, int b, boolean negative) {
-    boolean result = false;
+
 
     if (negative && (a < 0 && b < 0)) {
-        result = true;
-    } else if (!negative && (a < 0 && b > 0) ||
-            !negative && (a > 0 && b < 0) ) {
-        result = true;
+        return true;
+    } else if (!negative && (
+            (a < 0 && b > 0) || (a > 0 && b < 0) ) ) {
+        return true;
     }
-    System.out.println(result);
-    return result;
 
+    return false;
 }
 
 
