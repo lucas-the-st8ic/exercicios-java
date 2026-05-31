@@ -21,7 +21,7 @@ tudo antes do índice n.
     você pega tudo depois do índice n.
 */
  public String missingChar(String string, int n) {
-     
+
          System.out.println(string.substring(n));
 
          String stringBegin = string.substring(0,n);
