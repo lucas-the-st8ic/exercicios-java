@@ -3,6 +3,7 @@
 void main(String[] args) {
     backAround("cat");
     backAround("Hello");
+    backAround("Hi");
 }
 
 public String backAround(String string) {
