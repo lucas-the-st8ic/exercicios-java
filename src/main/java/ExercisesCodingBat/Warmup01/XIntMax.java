@@ -20,4 +20,5 @@ public int intMax2(int num_1, int num_2, int num_3) {
     largestNumber = Math.max(largestNumber, num_3);
 
     return largestNumber;
+    
 }
