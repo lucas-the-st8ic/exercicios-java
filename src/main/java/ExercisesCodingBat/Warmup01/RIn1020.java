@@ -4,6 +4,9 @@
 Given 2 int values, return true if either of them is
 in the range 10..20 inclusive.
 
+Dados dois valores inteiros, retorne verdadeiro se qualquer um
+deles estiver no intervalo de 10 a 20, inclusive.
+
 in1020(12, 99) → true
 in1020(21, 12) → true
 in1020(8, 99) → false
