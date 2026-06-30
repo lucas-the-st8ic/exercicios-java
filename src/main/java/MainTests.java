@@ -1,4 +1,4 @@
-public class AAAMainTests {
+public class MainTests {
     void main(String[] args) {
         int n = 4;
         String string = "Kitten";
