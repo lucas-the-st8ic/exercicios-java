@@ -17,9 +17,17 @@ public class MainTests {
         in1020(21, 12);
         in1020(12, 99);
         in1020(8, 99);
+
+        System.out.println("Abc".indexOf('x'));
     }
 
 
+    boolean doubleX(String string) {
+        String doubleX = string.substring(string.indexOf('x'), string.indexOf('x') + 2);
+        boolean isDoubleX = doubleX.equals("xx");
+        System.out.println(isDoubleX);
+        return isDoubleX;
+    }
 
     public boolean in1020(int num_1, int num_2) {
 
