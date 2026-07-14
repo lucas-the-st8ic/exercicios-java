@@ -21,8 +21,7 @@ void main(String[] args) {
 
 int countXX(String string) {
     int count = 0;
-    if(string.indexOf('x') == -1) return count;
-
+    
     for(int i = 0; i < string.length()-1; i++) {
         if(string.charAt(i) == 'x' && string.charAt(i+1) == 'x'){
             count++;

@@ -18,7 +18,6 @@ boolean doubleX(String string) {
     // Se não existir 'x', indexOf() retorna -1.
     if (indexX == -1) {
         return false;
-
     // Verifica se existem pelo menos dois caracteres
     // a partir do primeiro 'x', evitando
     // StringIndexOutOfBoundsException.
