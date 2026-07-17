@@ -79,7 +79,6 @@ public class MainTests {
                     break;
             }
         }
-
         return count;
     }
 
