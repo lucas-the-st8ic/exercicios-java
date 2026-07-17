@@ -24,6 +24,8 @@ public class MainTests {
 
         System.out.println("Abc".indexOf('x'));
         squareDigits(9119);
+
+        System.out.println(getCount("aeiou"));
     }
 
 
@@ -60,6 +62,34 @@ public class MainTests {
         System.out.println(numeroFinal);
 
         return numeroFinal;
+    }
+
+    public static int getCount(String string) {
+        int count = 0;
+
+        for (int i = 0; i < string.length(); i++) {
+            switch (string.charAt(i)) {
+                case 'a':
+                    count++;
+                    break;
+                case 'e':
+                    count++;
+                    break;
+                case 'i':
+                    count++;
+                    break;
+                case 'o':
+                    count++;
+                    break;
+                case 'u':
+                    count++;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        return count;
     }
 
 }
