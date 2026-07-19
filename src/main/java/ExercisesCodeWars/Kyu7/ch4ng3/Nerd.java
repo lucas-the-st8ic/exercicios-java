@@ -1,7 +1,7 @@
 package ExercisesCodeWars.Kyu7.ch4ng3;
 
 public class Nerd {
-
+//Depurar e verificar se o código está limpo e verificar uma possível solução com Regex
     public static String nerdify(String string){
         for (int i = 0; i < string.length(); i++) {
             switch(string.charAt(i)){
