@@ -4,7 +4,7 @@ import java.util.List;
 
 public class MainTests {
     void main(String[] args) {
-        int n = 4;
+/*        int n = 4;
         String string = "Kitten";
 
         for (int i = 0; i < string.length(); i++) {
@@ -27,7 +27,10 @@ public class MainTests {
 
         System.out.println(getCount("aeiou"));
 
-        nerdify("Fundamentals");
+        nerdify("Fundamentals");*/
+        String banana = "Banana";
+
+
     }
 
 
