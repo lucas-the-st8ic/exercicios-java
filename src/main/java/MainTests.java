@@ -30,6 +30,11 @@ public class MainTests {
         nerdify("Fundamentals");*/
         String banana = "Banana";
 
+        int num = 123;
+        String numToString = "";
+        numToString.valueOf(num);
+        System.out.println(num);
+        System.out.println(numToString);
 
     }
 
