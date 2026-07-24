@@ -1,4 +1,4 @@
-package ExercisesCodeWars.Kyu7.even_or_odd;
+package ExercisesCodeWars.Kyu8.even_or_odd;
 
 public class EvenOrOdd {
     public static String evenOrOdd(int number) {

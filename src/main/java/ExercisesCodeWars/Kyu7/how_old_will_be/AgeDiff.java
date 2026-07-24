@@ -1,4 +1,4 @@
-package ExercisesCodeWars.Kyu8.how_old_will_be;
+package ExercisesCodeWars.Kyu7.how_old_will_be;
 
 public class AgeDiff {
     public static String CalculateAge(int birth, int yearTo) {

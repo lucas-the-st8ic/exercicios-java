@@ -1,4 +1,4 @@
-package ExercisesCodeWars.Kyu7.ch4ng3;
+package ExercisesCodeWars.Kyu8.ch4ng3;
 
 public class Nerd {
 //Depurar e verificar se o código está limpo e verificar uma possível solução com Regex

@@ -1,4 +1,4 @@
-package ExercisesCodeWars.Kyu7.return_the_day;
+package ExercisesCodeWars.Kyu8.return_the_day;
 
 public class DayOfWeek {
     public static String getDay(int n) {
