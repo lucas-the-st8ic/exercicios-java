@@ -4,13 +4,16 @@ void main(String[] args) {
     stringYak("yak123ya"); //→ "123ya"
 }
 
-/*public String stringYak(String string) {
+public String stringYak(String string) {
     String result = "";
-    for (int i = 0; i < string.length(); i + 2) {
-        if (string.matches(i, i+3) != "yak") {
-            result += string.subSequence(i, i+3);
+    for (int i = 0; i < string.length() - 2; i++) {
+        if (string.charAt(i) == 'y' && string.charAt(i +2) == 'k' ) {
+
+            i += 2;
+        } else {
+            result += string.charAt(i);
         }
     }
     System.out.println(result);
     return result;
-}*/
+}
