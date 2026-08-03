@@ -1,5 +1,14 @@
-/*
+/*Given a string, return a string made of
+the chars at indexes 0,1, 4,5, 8,9 ... so
+"kittens" yields "kien".
 
+Dada uma string, retorne uma string composta
+pelos caracteres nos índices 0, 1, 4, 5, 8, 9...
+assim, "kittens" resulta em "kien".
+
+altPairs("kitten") → "kien"
+altPairs("Chocolate") → "Chole"
+altPairs("CodingHorror") → "Congrr"
  */
 void main(String[] args) {
     altPairs("kitten"); //→ "kien"

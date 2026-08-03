@@ -6,25 +6,16 @@ void main(String[] args) {
 
 public String stringYak(String string) {
     String result = "";
+    for (int i = 0; i < string.length(); i++) {
 
-    System.out.println(string.length() - 2);
-    for (int i = 0; i < string.length() - 2; i++) {
-        System.out.println("Índice: " + i);
-        System.out.println("================");
-        System.out.println(string.length() - 2);
-        if (string.charAt(i) != 'y' && string.charAt(i + 2) != 'z') {
-            System.out.println("String do índice i: " + string.charAt(i));
-            System.out.println("String do índice i + 2: " + string.charAt(i + 2));
-            System.out.println("================");
-            result += string.substring(i, i + 3);
-            System.out.println(result);
-            System.out.println("================");
-            if (i + 2 < string.length()) {
-                i += 2;
-            }
+        if (i + 2 < string.length() && string.charAt(i) == 'y'
+                && string.charAt(i + 2) == 'k' )
+        {   i += 2;
+
+        } else {
+            result += string.charAt(i);
         }
     }
-
     System.out.println(result);
     return result;
 }
