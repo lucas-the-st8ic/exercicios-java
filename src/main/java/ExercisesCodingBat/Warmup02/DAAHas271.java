@@ -5,9 +5,11 @@ void main(String[] args) {
 }
 
 public boolean has271(int[] numbers) {
-    for (int i = 0; i < numbers.length; i++) {
-        return numbers[i + 1] == numbers[i] + 5
-                && Math.abs(numbers[i + 2] - numbers[i - 1]) <= 2;
+    for (int i = 0; i < numbers.length - 2; i++) {
+        if (numbers[i + 1] == numbers[i] + 5
+        && Math.abs(numbers[i + 2] - numbers[i - 1]) <= 2) {
+            return true;
+        }
     }
     return false;
 }
