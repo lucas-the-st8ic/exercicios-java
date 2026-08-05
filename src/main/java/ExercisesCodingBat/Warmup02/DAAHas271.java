@@ -5,9 +5,16 @@ followed by the value minus 1.
 Additionally the 271 counts even if the "1"
 differs by 2 or less from the correct value.
 
+Dado um array de inteiros, retorne verdadeiro se ele
+contiver o padrão 2, 7, 1: um valor, seguido pelo valor
+mais 5, seguido pelo valor menos 1. Além disso,
+o padrão 2-7-1 é considerado válido mesmo que o "1"
+difira em 2 ou menos do valor correto.
+
 has271([1, 2, 7, 1]) → true
 has271([1, 2, 8, 1]) → false
 has271([2, 7, 1]) → true
+
 */
 
 void main(String[] args) {
