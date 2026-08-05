@@ -28,14 +28,15 @@ public class MainTests {
         System.out.println(getCount("aeiou"));
 
         nerdify("Fundamentals");*/
-        String banana = "Banana";
+    /*    String banana = "Banana";
 
         int num = 123;
         String numToString = "";
         numToString.valueOf(num);
         System.out.println(num);
-        System.out.println(numToString);
+        System.out.println(numToString);*/
 
+        isPalindrome(121);
     }
 
 
@@ -113,4 +114,15 @@ public class MainTests {
         System.out.println(string);
         return string;
     }
+
+    public boolean isPalindrome(int x) {
+        String intToString = String.valueOf(x);
+        String revIntToString = "";
+        for (int i = intToString.length() - 1; i >= 0; i--) {
+            revIntToString += intToString.charAt(i);
+        }
+        return revIntToString.equals(intToString);
+
+    }
 }
+
