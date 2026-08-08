@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 public class MainTests {
     void main(String[] args) {
@@ -36,9 +37,25 @@ public class MainTests {
         System.out.println(num);
         System.out.println(numToString);*/
 
-        isPalindrome(121);
+        /*isPalindrome(121);*/
+        romanToInt("XXVII");
     }
 
+
+        private static final Map<String, Integer> NUMERAIS_ROMANOS = Map.of(
+                "I", 1,
+                "V", 5,
+                "X", 10,
+                "L", 50,
+                "C", 100,
+                "D", 500,
+                "M", 1000);
+
+        public int romanToInt(String s) {
+            s.split("");
+            System.out.println(s);
+            return 0;
+        }
 
     boolean doubleX(String string) {
         String doubleX = string.substring(string.indexOf('x'), string.indexOf('x') + 2);
