@@ -11,14 +11,14 @@ extraEnd("ab") → "ababab"
 extraEnd("Hi") → "HiHiHi"*/
 
 void main(String[] args) {
-
+    extraEnd("Hello"); //→ "lololo"
+    extraEnd("ab"); //→ "ababab"
+    extraEnd("Hi"); //→ "HiHiHi"
 }
 
-public String extreEnd(String string) {
+public String extraEnd(String string) {
     String end = string.substring(string.length() - 2);
+    String result = end + end + end;
 
-    System.out.println(string);
-    System.out.println(end);
-
-    return end;
+    return result;
 }
