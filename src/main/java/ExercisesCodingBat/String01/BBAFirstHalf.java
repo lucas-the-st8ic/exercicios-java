@@ -17,6 +17,5 @@ public String firstHalf(String string) {
         System.out.println(result);
         return result;
     }
-
-
 }
+
