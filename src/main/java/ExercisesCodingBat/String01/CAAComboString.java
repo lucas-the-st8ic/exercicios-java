@@ -6,20 +6,18 @@ void main(String[] args) {
 
 private String comboString(String firstString,
                            String secondString) {
-    String result = "";
 
     if (firstString.length() < secondString.length()) {
-        result = firstString +
+        return firstString +
                 secondString + firstString;
-        return result;
     }
     if (secondString.length() < firstString.length()) {
-        result = secondString +
+        return secondString +
                 firstString + secondString;
-        return result;
-    } else {
-        result = firstString + secondString;
-        return result;
+
     }
+
+    return firstString + secondString;
+
 }
 
