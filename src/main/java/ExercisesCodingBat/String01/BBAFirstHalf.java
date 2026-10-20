@@ -4,7 +4,14 @@ void main(String[] args) {
     firstHalf("abcdef"); //→ "abc"
     firstHalf("abcdefg");
 }
+/*
+Given a string of even length, return the first half.
+So the string "WooHoo" yields "Woo".
 
+Dada uma string de comprimento par, retorne a
+primeira metade.
+Assim, a string "WooHoo" resulta em "Woo".
+*/
 
 public String firstHalf(String string) {
     String result = "";
