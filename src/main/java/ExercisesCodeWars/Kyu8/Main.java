@@ -1,9 +1,14 @@
-package ExercisesCodeWars.Kyu8;
+class Swapper{
 
-import ExercisesCodeWars.Kyu8.battery_bars.Kata;
+    public Object[] arguments;
 
-public class Main{
-    static void main(String[] args) {
-        System.out.println(Kata.batteryBars(40));
+    public Swapper(Object[]args){
+        arguments = args;
+    }
+
+    public void swapValues() {
+        Object temp = arguments[0];
+        arguments[0] = arguments[2];
+        arguments[2] = temp;
     }
 }
