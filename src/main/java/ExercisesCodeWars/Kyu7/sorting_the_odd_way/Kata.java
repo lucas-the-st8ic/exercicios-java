@@ -19,7 +19,31 @@ public class Kata {
                 impares.add(array[i]);
             }
         }
+
+/*        for (int i = 0; i < pares.size() - 1; i++) {
+
+            for (int j = 0; j < pares.size() - 1; j++) {
+                if (pares.get(j) < pares.get(j + 1)) {
+                    Double aux = pares.get(j);
+                    pares.set(j, pares.get(j + 1));
+                    pares.set(j + 1, aux);
+                }
+            }
+
+        }*/
         Collections.sort(pares, Collections.reverseOrder());
+
+/*        for (int i = 0; i < impares.size() - 1; i++) {
+            for (int j = 0; j < impares.size() - 1 - i; j++) {
+
+                // Ordem crescente: se o atual for MAIOR que o próximo, troca!
+                if (impares.get(j) > impares.get(j + 1)) {
+                    Double aux = impares.get(j);
+                    impares.set(j, impares.get(j + 1));
+                    impares.set(j + 1, aux);
+                }
+            }
+        }*/
         Collections.sort(impares);
 
        impares.addAll(pares);
