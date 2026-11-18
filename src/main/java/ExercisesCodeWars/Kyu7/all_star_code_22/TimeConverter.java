@@ -7,7 +7,7 @@ public class TimeConverter {
         int hours = seconds / 3600;
         int minutes = (seconds % 3600)/60;
 
-        String result = hours + "hour(s) and " + minutes+ " minute(s)";
+        String result = hours + " hour(s) and " + minutes+ " minute(s)";
 
         return result;
     }
